@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/deepmap/oapi-codegen/HEAD/configuration-schema.json
+package: auvik
+output: client.gen.go
+generate:
+  client: true
+  models: true
+  embedded-spec: false
+output-options:
+  client-type-name: Auvik
+  nullable-type: false
+  skip-prune: true
+  initialism-overrides: true
+  response-type-suffix: Res

@@ -39,6 +39,10 @@ const (
 	AlertInformationalString AlertSeverityString = "Info"
 )
 
+func (ent EntityType) String() string {
+	return string(ent)
+}
+
 func (stat AlertStatusString) String() string {
 	return string(stat)
 }

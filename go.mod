@@ -3,6 +3,7 @@ module github.com/stellaraf/go-auvik
 go 1.20
 
 require (
+	github.com/deepmap/oapi-codegen v1.16.3
 	github.com/oapi-codegen/oapi-codegen/v2 v2.3.0
 	github.com/oapi-codegen/runtime v1.1.1
 	github.com/stellaraf/go-utils v0.1.7
